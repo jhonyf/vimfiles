@@ -22,11 +22,6 @@ set shiftwidth=2
 set tabstop=2
 set expandtab
 
-
-" 80 chars
-set colorcolumn=80
-
-
 " syntax highlighting for .less files
 au BufNewFile,BufRead *.less set filetype=css
 

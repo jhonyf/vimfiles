@@ -33,5 +33,9 @@ set lines=50
 " Tab headings 
 set gtl=%t gtt=%F
 
+
+" 80 chars
+set colorcolumn=80
+
 colorscheme vividchalk
 set vb
