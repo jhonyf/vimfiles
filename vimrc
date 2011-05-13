@@ -59,9 +59,6 @@ set ignorecase " Ignore case when searching
 set smartcase " Ignore case when searching lowercase
 
 " Hard to type *****************************************************************
-imap uu _
-imap hh =>
-imap aa @
 
 " NERDTree ********************************************************************
 :noremap <Leader>n :NERDTreeToggle<CR>
