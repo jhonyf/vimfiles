@@ -1,1 +1,7 @@
 put vimfiles in your home directory and run vimfiles/setup.sh
+
+Notes: When running command-t, you might receive this error 'command-t.vim could not load the C extension'
+To Fix:
+cd ~/.vim/bundle/command-t/ruby/command-t/
+ruby extconf.rb 
+make
